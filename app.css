@@ -1,0 +1,67 @@
+body {
+	background-color:  #262323;
+}
+.jumbotron{
+	text-align: center;
+	background-color: white;
+	border-radius: 100px;
+	margin: 30px 50px 0 50px;
+}
+hr {
+	display: inline-block;
+	background-color: black;
+	width: 350px;
+}
+h1{
+	font-family: Cursive;
+	font-size: 8em;
+}
+h3 {
+	font-family: "Helvetica", "Verdana";
+	font-size: 2em;
+}
+#amper {
+	font-size: 2em;
+}
+#red{
+	background-color: red;
+	padding: 5px;
+}
+#blue{
+	background-color: blue;
+	padding: 20px;
+	border: 3px solid black;
+}
+#green{
+	padding: 5px;
+	background-color: green;
+}
+#yellow{
+	padding: 5px;
+	background-color: yellow;
+}
+#brown{
+	padding: 5px;
+	background-color: brown
+}
+.button {
+	text-align: center;
+	margin-top: 40px;
+}
+#anim {
+	animation-duration: 1s;
+	animation-name: blink;
+	animation-iteration-count: infinite;
+}
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
