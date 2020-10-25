@@ -1,10 +1,11 @@
 body {
-	background-color:  #262323;
+	background: url(background.jpg);
 }
 .jumbotron{
 	text-align: center;
-	background-color: white;
+	background: transparent !important;
 	border-radius: 100px;
+	height: 500px;
 	margin: 30px 50px 0 50px;
 }
 hr {
@@ -12,9 +13,10 @@ hr {
 	background-color: black;
 	width: 350px;
 }
-h1{
+h1.display-1{
 	font-family: Cursive;
 	font-size: 8em;
+	margin-bottom: 50px;
 }
 h3 {
 	font-family: "Helvetica", "Verdana";
@@ -23,26 +25,22 @@ h3 {
 #amper {
 	font-size: 2em;
 }
-#red{
-	background-color: red;
+#blue{
+	background-color: #4d56a3;
 	padding: 5px;
 }
-#blue{
-	background-color: blue;
+#cyan{
+	background-color: #68b8c3;
 	padding: 20px;
 	border: 3px solid black;
 }
-#green{
+#orange{
 	padding: 5px;
-	background-color: green;
+	background-color: #fe9843;
 }
-#yellow{
+#purple{
 	padding: 5px;
-	background-color: yellow;
-}
-#brown{
-	padding: 5px;
-	background-color: brown
+	background-color: #ae5fb2;
 }
 .button {
 	text-align: center;
